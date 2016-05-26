@@ -59,7 +59,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I am still deciding on either emacs or vim.  I have both on Liunx.
 
 --
 
@@ -67,6 +67,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I like Spyder since it has a layout closest to R Studio and Matlab.  However, I may change to Atom or maybe Sublime. Both Sublime and Atom seem to be able to do the same things so it may come down to cost. I have not really thought about customization or keyboard shortcuts. 
 
  

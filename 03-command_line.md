@@ -13,7 +13,21 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd, print working directory  
+    cd, change directory  
+    ls, list files and directories  
+    file, classify a files contents  
+    /, root directory  
+    /bin, where the binary files are.  
+    /usr/bin, where the applications for the system users are.  
+    /root, superuser root directory.  
+    cp, copy files and directories  
+    rm, remove files and directories.  
+    mv, move files and directories.  
+    mkdir, create directories.
+     
+     
+     
 
 ---
 
@@ -29,16 +43,11 @@ What do the following commands do:
 `ls -Glp`  
 
 > > ls-List directory contents 
-    ls -a, all.  Tells the computer not to ignore entries starting with .
-    
-    ls -l, use a long listing format 
-    
-    ls -lh, use a long format and print sizes in human readable format 
-    
-    ls -lah, use a long format, print sizes in human readable format, and print the author of each file 
-    
-    ls -t, sort by modification time. 
-    
+    ls -a, all.  Tells the computer not to ignore entries starting with.  
+    ls -l, use a long listing format   
+    ls -lh, use a long format and print sizes in human readable format   
+    ls -lah, use a long format, print sizes in human readable format, and print the author of each file   
+    ls -t, sort by modification time.   
     ls -Glp, long listing without group names and append /indicator to directories. 
 
 ---
@@ -55,8 +64,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > xargs constructs argument lists and invokes other utilities.  It reads standard input items, them executes the commands one or more times with any initial arguments followed by items read from standard input. 
-
+> > xargs constructs argument lists and invokes other utilities.  It reads standard input items, them executes the commands one or more times with any initial arguments followed by items read from standard input.   
 Example: $ echo 1234 | xargs will print 1234.
 
  

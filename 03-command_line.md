@@ -28,13 +28,18 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > ls-List directory contents /n
-    ls -a, all.  Tells the computer not to ignore entries starting with ./n
-    ls -l, use a long listing format /n
-    ls -lh, use a long format and print sizes in human readable format /n
-    ls -lah, use a long format, print sizes in human readable format, and print the author of each file /n
-    ls -t, sort by modification time. /n
-    ls -Glp, long listing without group names and append /indicator to directories. /n
+> > ls-List directory contents 
+    ls -a, all.  Tells the computer not to ignore entries starting with .
+    
+    ls -l, use a long listing format 
+    
+    ls -lh, use a long format and print sizes in human readable format 
+    
+    ls -lah, use a long format, print sizes in human readable format, and print the author of each file 
+    
+    ls -t, sort by modification time. 
+    
+    ls -Glp, long listing without group names and append /indicator to directories. 
 
 ---
 
@@ -50,7 +55,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > xargs constructs argument lists and invokes other utilities.  It reads standard input items, them executes the commands one or more times with any initial arguments followed by items read from standard input. /n
+> > xargs constructs argument lists and invokes other utilities.  It reads standard input items, them executes the commands one or more times with any initial arguments followed by items read from standard input. 
 
 Example: $ echo 1234 | xargs will print 1234.
 

@@ -28,7 +28,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls-List directory contents
+    ls -a, all.  Tells the computer not to ignore entries starting with .
+    ls -l, use a long listing format
+    ls -lh, use a long format and print sizes in human readable format
+    ls -lah, use a long format, print sizes in human readable format, and print the author of each file
+    ls -t, sort by modification time.
+    ls -Glp, long listing without group names and append /indicator to directories.
 
 ---
 

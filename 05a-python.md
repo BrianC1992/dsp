@@ -37,7 +37,18 @@ Sets are faster when you are trying to see if an object is in a set.  This is be
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> A lambda function is a function that takes a number of arguments and returns the value of a single expression.
+>> A lambda function is a function that takes a number of arguments and returns the value of a single expression.  
+An example of using a lambda function is:  
+```
+tups = [
+    (1, 3, -2),
+    (3, 2, 1),
+    (-1, 0, 4),
+    (0, -1, 3),
+    (-2, 6, -5)
+]  
+sorted(tups, key=lambda tup: tup[1])  
+```
 
 ---
 

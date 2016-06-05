@@ -3,10 +3,11 @@
 ####a) 
 from datetime import datetime
 date_format = "%m-%d-%Y"
-date_start = '01-02-2013'  
-date_stop = '07-28-2015' 
-data_start = datetime.strptime('01-02-2013', date_format)
-data_stop = datetime.strptime('07-28-2015', date_format)
+date_start = '01-02-2013'    
+date_stop = '07-28-2015'
+
+data_start = datetime.strptime(date_start, date_format)
+data_stop = datetime.strptime(date_stop, date_format)
 
 delta = data_stop-data_start
 

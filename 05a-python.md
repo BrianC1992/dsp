@@ -66,7 +66,6 @@ The equivalent statement with map and filter is below:
 doubled_odds = map(lambda n: n * 2, filter(lambda n: n % 2 == 1, numbers))  
 ```  
 The capabilities seem to be about the same.  However, list comprehensions are somewhat more readable.   
-
 A set comprehension is similar to a list comprehension except you are working on a set.  
 An example would be:  
 ```  

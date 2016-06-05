@@ -56,7 +56,30 @@ sorted(tups, key=lambda tup: tup[1])
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> A list comprehension is a construct that allows a list to be transformed from another list.  
+An example of a list comprehension is below:  
+```  
+doubled_odds = [n * 2 for n in numbers if n % 2 == 1]  
+```  
+The equivalent statement with map and filter is below:  
+```  
+doubled_odds = map(lambda n: n * 2, filter(lambda n: n % 2 == 1, numbers))  
+```  
+The capabilities seem to be about the same.  However, list comprehensions are somewhat more readable.  
+
+A set comprehension is similar to a list comprehension except you are working on a set.  
+An example would be:  
+```  
+a = {x for x in 'abracadabra' if x not in 'abc'}  
+```  
+Dictionary comprehensions work the same way as list comprehensions.  
+Example:  
+```  
+{x: x**2 for x in (2, 4, 6)}  
+```  
+
+ 
+
 
 ---
 

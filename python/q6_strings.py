@@ -84,8 +84,10 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
-
+    def mix_up(a,b):
+    word1 = b[:2] + a[2:]
+    word2 = a[:2] + b[2:]
+    return word1 + ' ' + word2
 
 def verbing(s):
     """

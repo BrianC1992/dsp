@@ -103,7 +103,14 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
+    end1 = 'ing'
+    end2 = 'ly'
+    if len(s) < 3:
+        newWord = s
+    elif s[-3:] == end1:
+            newWord = s + end2
+    else: newWord = s + end1
+    return newWord
 
 
 def not_bad(s):

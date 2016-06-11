@@ -19,7 +19,9 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
 
->> degree  count
+>>
+```  
+      degree  count
 0        0      1
 1  B.S.Ed.      1
 2       JD      1
@@ -29,20 +31,25 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 6      MPH      2
 7    Ph.D.     31
 8    Sc.D.      6
-
+```
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
->>                             title  count
+>>  
+```
+                                   title  count
 0  Assistant Professor of Biostatistics     12
 1  Associate Professor of Biostatistics     12
 2            Professor of Biostatistics     13
-
+```
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
 
->> ren@upenn.edu',
+>> 
+```
+ ['bellamys@mail.med.upenn.edu',
+ 'warren@upenn.edu',
  'bryanma@upenn.edu',
  'jinboche@upenn.edu',
  'sellenbe@upenn.edu',
@@ -78,6 +85,7 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
  'sxie@mail.med.upenn.edu',
  'dxie@upenn.edu',
  'weiyang@mail.med.upenn.edu']
+ ```
 
 
 ####Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.

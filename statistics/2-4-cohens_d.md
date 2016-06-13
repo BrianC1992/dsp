@@ -1,6 +1,7 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> The code for the Cohen's d problem is below:
+>> The code for the Cohen's d problem is below:  
+
 ```
 import nsfg
 import numpy as np
@@ -8,7 +9,6 @@ import sys
 import thinkstats2
 import math
 import first
-
 
 df = nsfg.ReadFemPreg()
 df
@@ -37,7 +37,8 @@ def CohenEffect(x1,x2):
     
    
 CohenEffect(pregWt['totalwgt_lb'],pregWt2['totalwgt_lb'])
-CohenEffect(pregWt['pregend1'],pregWt2['pregEndOthers'])
+CohenEffect(pregWt['pregend1'],pregWt2['pregEndOthers'])  
+
 ```
 Cohens d equals: -0.06911962316626086
 Cohens d equals: -0.06911962316626086

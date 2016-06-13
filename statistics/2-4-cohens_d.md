@@ -40,7 +40,7 @@ CohenEffect(pregWt['totalwgt_lb'],pregWt2['totalwgt_lb'])
 CohenEffect(pregWt['pregend1'],pregWt2['pregEndOthers'])  
 
 ```
-Cohens d equals: -0.06911962316626086
-Cohens d equals: -0.06911962316626086
+Cohens d equals: -0.06911962316626086 for Birth order
+  
 
 

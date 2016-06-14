@@ -42,8 +42,11 @@ pmf1.Mean()
 biased_pmf.Mean()
 ```
 Answers to questions:  
-![](/home/brianc/ds/metis/prework/dsp/output_5_0.png)  
+![pmf](https://github.com/BrianC1992/dsp/tree/master/statistics/output_5_0.png)  
 
-![](/home/brianc/ds/metis/prework/dsp/output_11_0.png)
+![pmf comparison](https://github.com/BrianC1992/dsp/tree/master/statistics/output_11_0.png)  
+
+Pmf mean = 1.0242051550438309  
+Biased Pmf mean = 2.4036791006642821
 
 

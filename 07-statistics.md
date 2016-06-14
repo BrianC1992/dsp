@@ -85,14 +85,15 @@ Therefore, P(I|T) = (1/600)(300000/1100) = 5/11
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> In essence, Bayesian statistics views probability as a degree of belief.  P(A) is the initial belief in A.  P(B|A) is the likelihood of B given A.  P(A|B) is the posterior probability of A given B has occured.  Frequentist statistics views probability in terms of a proportion of successful outcomes.  P(A) is the number of times A occurs out of a given number of trials.  P(B|A) is the number of times B occurs out of a given number of trials given A has occured.  P(A|B) is the number of times A occurs out of a given number of trials given B has occured.  
+
+Essentially, both Bayesian and Frequentist statistics tell you the same thing.  Only the interpretation differs.
 
 ---
 
-###Optional Exercises
+###Optional Exercise 
 
 The following exercises are optional, but we highly encourage you to complete them if you have the time.
-
 ###Q7. [Think Stats Chapter 7 Exercise 1](statistics/7-1-weight_vs_age.md) (correlation of weight vs. age)
 In this exercise, you will compute the effect size of correlation.  Correlation measures the relationship of two variables, and data science is about exploring relationships in data.    
 

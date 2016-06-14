@@ -19,7 +19,7 @@ thinkplot.show()
   
   
 >> The pmf for the random numbers is below:  
-![pmf](/home/brianc/ds/metis/prework/dsp/Lesson7q3.png)  
+![pmf](/Lesson7q3.png)  
 
 The cdf for the random number is below:  
-![cdf](/home/brianc/ds/metis/prework/dsp/Lesson7q3cdf.png)
+![cdf](Lesson7q3cdf.png)

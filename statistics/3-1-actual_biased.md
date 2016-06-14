@@ -41,5 +41,8 @@ thinkplot.Show(xlabel='Number of Children Under 18', ylabel='PMF')
 pmf1.Mean()
 biased_pmf.Mean()
 ```
+Answers to questions:  
+![github logo](images/output_5_0.png)
+![github logo](images/output_11_0.png)
 
 

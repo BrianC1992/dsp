@@ -74,7 +74,6 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 The answer is 5/11  
 P(I|T) = P(I)P(T|I)/P(T)  
 Where P(T) = P(T)P(T|I)+P(T)P(T|F) 
-
 P(I) = 1/2  
 P(T|I) = 1/300
 P(T) = (1/2)(1/300)+(1/4)(1/125) = 1100/300,000  

@@ -42,7 +42,7 @@ pmf1.Mean()
 biased_pmf.Mean()
 ```
 Answers to questions:  
-![github logo](images/output_5_0.png)
-![github logo](images/output_11_0.png)
+![pmf](/home/brianc/ds/metis/prework/dsp/output_5_0.png)
+![pmf comparison](/home/brianc/ds/metis/prework/dsp/output_11_0.png)
 
 

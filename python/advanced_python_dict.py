@@ -15,4 +15,5 @@ for x in range(len(faculty)):
     currentvalue = faculty.iloc[x,0:3]
     mydict.setdefault(currentid, [])
     mydict[currentid].append(currentvalue)
-mydict
+first3pairs = {k: mydict[k] for k in list(mydict.keys())[:3]}
+first3pairs

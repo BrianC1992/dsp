@@ -150,19 +150,27 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 
 Print the first 3 key and value pairs of the dictionary:
 
->> {('Hongzhe', 'Li'): {'degree': 'Ph.D.',
-  'email': 'hongzhe@upenn.edu',
-  'title': 'Professor of Biostatistics'},
- ('Scarlett L.', 'Bellamy'): {'degree': 'Sc.D.',
-  'email': 'bellamys@mail.med.upenn.edu',
+>> {('A. Russell', 'Localio'): {'degree': 'JD MA MPH M.S. Ph.D.',
+  'email': 'rlocalio@upenn.edu',
   'title': 'Associate Professor of Biostatistics'},
- ('Susan S', 'Ellenberg'): {'degree': 'Ph.D.',
-  'email': 'sellenbe@upenn.edu',
+ ('Alisa Jane', 'Stephens'): {'degree': 'Ph.D.',
+  'email': 'alisaste@mail.med.upenn.edu',
+  'title': 'Assistant Professor of Biostatistics'},
+ ('Andrea Beth', 'Troxel'): {'degree': 'Sc.D.',
+  'email': 'atroxel@mail.med.upenn.edu',
   'title': 'Professor of Biostatistics'}}
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> {('Bellamy', 'Scarlett L.'): {'degree': 'Sc.D.',
+  'email': 'bellamys@mail.med.upenn.edu',
+  'title': 'Associate Professor of Biostatistics'},
+ ('Bilker', 'Warren B.'): {'degree': 'Ph.D.',
+  'email': 'warren@upenn.edu',
+  'title': 'Professor of Biostatistics'},
+ ('Bryan', 'Matthew W'): {'degree': 'Ph.D.',
+  'email': 'bryanma@upenn.edu',
+  'title': 'Assistant Professor of Biostatistics'}}
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 
